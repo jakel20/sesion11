@@ -189,13 +189,3 @@ with col4:
         st.info("El modelo comete la misma cantidad de falsos positivos y falsos negativos.")
 
 st.divider()
-st.markdown(
-    """
-### 🧠 Preguntas para responder interactuando con la app
-
-1. Desmarca **viento** en la barra lateral. ¿Qué pasa con el accuracy, la precisión y el recall?
-2. Sube el umbral a **0.7**. ¿El modelo predice más o menos días de lluvia?
-3. Mira los coeficientes del modelo (`modelo.coef_`). ¿Cuál variable parece tener más peso en la predicción?
-4. Con el umbral por defecto (**0.5**), ¿el modelo comete más falsos positivos o más falsos negativos? ¿Qué significaría eso en la vida real (por ejemplo, para alguien que decide si llevar paraguas)?
-"""
-)
