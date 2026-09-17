@@ -189,3 +189,14 @@ with col4:
         st.info("El modelo comete la misma cantidad de falsos positivos y falsos negativos.")
 
 st.divider()
+st.markdown(
+    """
+### 🧠 Preguntas para responder interactuando con la app
+
+1. Desmarca **viento** en la barra lateral. ¿Cambian mucho el accuracy, la precisión o el recall?
+2. Sube el umbral a **0.7**. ¿El modelo predice más o menos días de lluvia? ¿Qué pasa con los falsos negativos?
+3. Mirando el gráfico de **importancia de variables**, ¿cuál tiene el coeficiente más grande en valor absoluto?
+4. Ajusta la humedad del "nuevo día" a un valor muy alto (>90%) y luego muy bajo (<30%). ¿Cómo cambia la probabilidad de lluvia?
+5. ¿En qué combinación de umbral y variables el modelo comete más falsos positivos que falsos negativos? ¿Y al revés?
+"""
+)
